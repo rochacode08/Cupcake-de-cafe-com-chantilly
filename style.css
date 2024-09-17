@@ -19,7 +19,7 @@ body {
   padding: 24px;
   background-color: #F0E8C2;
   border-radius: 24px;
-  margin: 48px auto;
+  margin: 48px auto 28px;
   box-sizing: border-box;
 }
 
@@ -56,4 +56,30 @@ h1, h2 {
 
 ul {
   padding-left: 24px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #F0E8C2;
+}
+
+#instagram, #linkedin {
+  width: 20px;
+  vertical-align: middle;
+}
+
+footer a {
+  color: #F0E8C2;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+p#contact,#reservedDures {
+  margin-top: 12px;
 }
